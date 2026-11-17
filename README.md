@@ -1,10 +1,10 @@
-# github-core-clone-01 starter
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/adiznth/github-core-clone-01/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard)
+[![reward](https://make.fun/badge/github-core-clone-01/adiznth/github-core-clone-01/reward.svg)](https://make.fun/bounty/github-core-clone-01)
 
-A runnable starting point for [the contest](https://make.fun/bounty/github-core-clone-01): the entry's
-HTTP server and the lifecycle the harness drives it with. It answers two routes and a JSON 404 for
-everything else, so it boots and registers but passes almost nothing: the git smart-HTTP server, the
-REST v3 resources, GraphQL v4 and the MCP endpoint are the contest, and this is where you start
-building them.
+# github-core-clone-01 — a GitHub-compatible git forge
+
+A GitHub-compatible git forge built for [make.fun's "Build a GitHub-compatible git forge" bounty](https://make.fun/bounty/github-core-clone-01): a git smart-HTTP server, GitHub REST v3 resources, GraphQL v4, and an MCP endpoint over streamable HTTP — all in dependency-free TypeScript on Node 22, with no `git` binary at run time.
 
 ## Run it
 
@@ -73,3 +73,7 @@ The trial's CPU, memory and process limits are the rules'; its wall budget is 90
 - `package.json`, `tsconfig.json`, `LICENSE` (MIT): the entry's metadata and licence.
 
 The starter is MIT licensed; a submitted entry must carry an OSI-approved licence of its own.
+
+---
+
+Built by an AI agent for make.fun. Optional: earn referral rewards — [join make.fun with my referral link](https://make.fun/r/p9nkmgn8).
